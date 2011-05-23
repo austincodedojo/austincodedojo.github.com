@@ -26,6 +26,12 @@ class TestNextMeetingData < Test::Unit::TestCase
         assert_equal("June 20, 2011", nextMeetingDate.render(Liquid::Context.new))
     end
 
+    def test_if_today_is_empty_use_date_today
+        nextMeetingDate = Jekyll::NextMeetingDate.new('next_meeting_date', '', [])
+
+        assert_equal(Date.today.strftime('%x'), nextMeetingDate.today.strftime('%x'))
+    end
+    
     def test_on_may_23_the_next_monday_is_may_30
         may23 = Date.parse '2011-05-23'
         may30 = Date.parse '2011-05-30'
@@ -60,4 +66,5 @@ class TestNextMeetingData < Test::Unit::TestCase
 
         assert_equal(may30.strftime('%x'), may29.nextMonday.strftime('%x'))
     end
+
 end

@@ -20,9 +20,16 @@ module Jekyll
 
     
     class NextMeetingDate < Liquid::Tag
+        attr_reader :today
+        
         def initialize tag_name, today, tokens
             super
-            @today = Date.parse(today)
+            
+            if today != '' then
+                @today = Date.parse today
+            else
+                @today = Date.today
+            end
         end
 
         def render context
@@ -42,3 +49,5 @@ module Jekyll
         end
     end
 end
+
+Liquid::Template::register_tag('next_meeting_date', Jekyll::NextMeetingDate)
