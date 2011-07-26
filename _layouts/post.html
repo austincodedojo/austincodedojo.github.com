@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+<head>
+<script type="text/javascript">
+
+  /**
+   * Google Analytics
+   */
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-24746068-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+    /**
+     * Disqus
+     */
+    var disqus_shortname = 'austincodedojo';
+    var disqus_identifier = '{{ post.id }}';
+    var disqus_url = '{{ site.url }}{{ page.url }}';
+
+    (function() {
+    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+    dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+})();
+</script>   
+<title>{{ page.title }}</title>
+</head>
+    <div class="site">
+        <div class="header">
+            <h1>{{ page.title }}</h1>
+            <h2 class="post-date">Posted: {{ page.date | date_to_string }}</h2>
+        </div>
+        <div class="content">
+
+        {{ content }}
+
+        <div class="footer">
+            <div id="disqus_thread" />
+            <noscript>
+                We use <a href="http://disqus.com">Disqus</a> for post
+                comments, but you don't have Javascript enabled, so you can't see
+                them. Please enable Javascript if you wish to view the comments on
+                this post.
+            </noscript>
+        </div>
+    </div>
+</html>

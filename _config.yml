@@ -1,1 +1,4 @@
 exclude: [ Rakefile, .gitignore ]
+
+# Site configuration options used by templates
+url: http://austincodedojo.github.com
