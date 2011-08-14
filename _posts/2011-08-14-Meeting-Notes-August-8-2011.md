@@ -32,13 +32,13 @@ Things for future meetings
   * Spock is a BDD test framework built on top of JUnit and written in Groovy. It
     is a generic test framework that can be used for any testing application.
 
-    http://spockframework.org
+    [http://spockframework.org](http://spockframework.org)
 
   * Geb is a Groovy library that is built on top of Selenium and provides a nice
     DSL for driving interaction with a web page. It's real strength is in its
     DSL feature for creating [Page Objects](http://code.google.com/p/selenium/wiki/PageObjects).
 
-    http://www.gebish.org
+    http://www.gebish.org(http://www.gebish.org)
 
 * Trying different languages
   
