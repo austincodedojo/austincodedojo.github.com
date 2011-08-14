@@ -38,7 +38,7 @@ Things for future meetings
     DSL for driving interaction with a web page. It's real strength is in its
     DSL feature for creating [Page Objects](http://code.google.com/p/selenium/wiki/PageObjects).
 
-    http://www.gebish.org(http://www.gebish.org)
+    [http://www.gebish.org](http://www.gebish.org)
 
 * Trying different languages
   
