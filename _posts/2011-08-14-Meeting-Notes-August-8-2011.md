@@ -52,3 +52,11 @@ Things for future meetings
 
   Another possibility might be taking a look at the _Seven Languages in Seven
   Weeks_ book by Brian Tate.
+
+Next Meeting
+------------
+
+The consensus around the table was that next meeting we should take a look at
+Spock and Geb.
+
+Our next meeting will be August 17, 2011. [Sign up now!](http://austincodedojo-8-17-2011.eventbrite.com)
