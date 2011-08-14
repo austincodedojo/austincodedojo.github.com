@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Meeting Notes for August 8, 2011
+title: Meeting Notes for August 3, 2011
 ---
 
 Who Came:
