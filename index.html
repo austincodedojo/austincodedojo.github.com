@@ -29,11 +29,23 @@ Corporate Headquarters</a> in the Barton Creek/Zilker Park area. Our next
 meeting is on Wednesday, August 31, 2011. <a
 href="http://austincodedojo-2011-08-31.eventbrite.com">Please Sign Up</a> so we know you're
 coming.
-<div id="Meeting Notes">
+<div id="meeting-notes">
     <h3>Meeting Notes</h3>
     <ul class="meetings">
         {% for post in site.posts %}
             <li><span>{{ post.date | date_to_string }}</span> - <a href="{{ post.url }}">{{ post.title }}</a></li>
         {% endfor %}
     </ul>
+</div>
+<div id="google-group-subscribe">
+  <img src="http://groups.google.com/intl/en/images/logos/groups_logo_sm.gif"
+       id="groups-logo"
+       height="30"
+       width="140"
+       alt="Google Groups">
+  <h3>Subscribe to the Austin Code Dojo mailing list!</h3>
+  <form action="http://groups.google.com/group/austin-code-dojo/boxsubscribe">
+    Email: <input type="text" name="email">
+    <input type="submit" name="sub" value="Subscribe">
+  </form>
 </div>
