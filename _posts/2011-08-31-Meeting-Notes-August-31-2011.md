@@ -44,8 +44,9 @@ Next Meeting
 ------------
 
 Our next meeting will be held on Wednesday, September 14, 2011 from 6pm-10pm. We
-will be looking into working with genetic algorithms. Please [sign up][2] if you
+will be looking into working with [genetic algorithms][2]. Please [sign up][3] if you
 plan on coming.
 
 [1]: http://github.com/austincodedojo/meeting-code-2011-08-31 "The code from the August 31, 2011 meeting"
-[2]: http://austincodedojo-2011-09-14.eventbrite.com "Sign up for the 9/14/2011 Code Dojo!"
+[2]: http://www.ai-junkie.com/ga/intro/gat1.html "Genetic Algorithms ins Plain English"
+[3]: http://austincodedojo-2011-09-14.eventbrite.com "Sign up for the 9/14/2011 Code Dojo!"
